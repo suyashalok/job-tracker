@@ -35,5 +35,19 @@ The Job Tracker is designed to simplify and automate the job application process
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
+    [Frontend (Next.js)]
+    ↓
+    [Backend API (Node/Supabase)]
+    ↓
+    [Database (PostgreSQL)]
+    ↑
+    [Google OAuth Authentication]
 
+job-tracker/
+├── pages/
+├── components/
+├── lib/
+├── utils/
+├── public/
+└── README.md
